@@ -34,7 +34,9 @@ const styles = StyleSheet.create({
     height : null,
   },
   footer: {
-  	height : 500
+  	position: "absolute",
+    bottom: 0,
+    left: 0
   }
 });
 

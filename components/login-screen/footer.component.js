@@ -15,7 +15,7 @@ export class FooterComponent extends Component {
   }
 	render() {
     return (
-		<View style={styles.mainContainer}>
+		<View style={[styles.mainContainer, this.props.style]}>
 			<View style={styles.left}>
           <TouchableOpacity>
           <Image
